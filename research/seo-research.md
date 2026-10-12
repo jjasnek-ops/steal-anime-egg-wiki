@@ -39,3 +39,9 @@ Largest risks: mixed-game intent, unverifiable Google volume, no confirmed activ
 
 Next actions after a verified domain launch: use GSC indexing and query data on days 7, 14 and 28; inspect the exact game before expanding catalogs; update only on a real change. These are recommendations, not scheduled automations.
 
+
+## Additional verification at launch
+
+The exact variant “steal an anime egg” was inspected in the actual US-English Google browser. Seven ordinary result anchors, four embedded videos, and an AI Overview were visible. The first result and AI Overview identify BlinkWorks, while the correct target appears farther down. Variant competition is **2/5**. No AI Overview mechanics or video-title claims became game facts. The final incremental snapshots preserve the initial pending observation instead of overwriting the inherited baseline.
+
+Google Trends was opened for the core term, United States, past 12 months, Web Search. All charts showed a service error. Similarweb was opened for competitor stealanimeeggs.wiki and returned 403. These are access/data gaps, not measured zero demand. See trends-check.json and similarweb-check.json.

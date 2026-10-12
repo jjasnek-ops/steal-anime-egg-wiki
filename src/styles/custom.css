@@ -34,7 +34,7 @@
   .hero .actions a { border-radius: .5rem; }
   .sl-markdown-content :is(h2,h3) { scroll-margin-top: 7rem; }
   .sl-markdown-content h2 { font-size: 1.55rem; }
-  .sl-markdown-content table { width: 100%; font-size: .92rem; border-collapse: collapse; }
+  .sl-markdown-content table { display: block; width: 100%; max-width: 100%; overflow-x: auto; font-size: .92rem; border-collapse: collapse; }
   .sl-markdown-content td, .sl-markdown-content th { padding: .8rem .85rem; vertical-align: top; }
   .sl-markdown-content th { background: var(--sl-color-gray-6); }
   .sl-markdown-content thead { border-bottom: 2px solid var(--sl-color-gray-5); }
@@ -57,6 +57,6 @@
   .card-grid { gap: 1rem; }
   a:focus-visible, button:focus-visible { outline: 3px solid var(--sl-color-accent-high); outline-offset: 4px; }
   @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; } }
-  @media (max-width: 50rem) { .hero { padding-block: 1.2rem; } .hero h1 { max-width: 18ch; } .hero > img { max-height: 15rem; } .sl-markdown-content table { min-width: 30rem; } .answer-box { padding: 1rem 1.15rem; } }
+  @media (max-width: 50rem) { .hero { padding-block: 1.2rem; } .hero h1 { max-width: 18ch; } .hero > img { max-height: 15rem; } .answer-box { padding: 1rem 1.15rem; } }
 }
 

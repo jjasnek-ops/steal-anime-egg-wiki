@@ -21,7 +21,8 @@
     "prebuild": "node scripts/generate-assets.mjs",
     "postbuild": "node scripts/postbuild.mjs",
     "audit:site": "node scripts/audit.mjs",
-    "consent:check": "node scripts/check-consent.mjs"
+    "consent:check": "node scripts/check-consent.mjs",
+    "audit:live": "node scripts/audit-live.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "0.42.6",
