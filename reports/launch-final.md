@@ -96,7 +96,7 @@
 
 手机验收发现的表格最小宽度问题已修复并重新部署；宽表格在自身内部滚动。构建仍有 Starlight 空 i18n 与 404 路由优先级提示，最终静态输出和实际 404 响应均通过，未把提示伪报为类型错误。
 
-验证报告：[静态](technical-audit.json)、[正式 HTTP](live-http-audit.json)、[手机](responsive-audit.json)、[统计同意](consent-check.json)。手机修正版源码的 [GitHub CI](https://github.com/jjasnek-ops/steal-anime-egg-wiki/actions/runs/38219700676) 已通过。未宣称 Lighthouse 分数或尚不存在的 Core Web Vitals 实际用户数据。
+验证报告：[静态](technical-audit.json)、[正式 HTTP](live-http-audit.json)、[手机](responsive-audit.json)、[统计同意](consent-check.json)。最终事实措辞修正版源码的 [GitHub CI](https://github.com/jjasnek-ops/steal-anime-egg-wiki/actions/runs/38225254825) 已通过。未宣称 Lighthouse 分数或尚不存在的 Core Web Vitals 实际用户数据。
 
 ### Google 服务状态
 
@@ -113,6 +113,8 @@ Codes 页面最初显示 URL 未知；收录请求已成功加入优先抓取队
 准确游戏身份：**Steal Anime Eggs**，place **96727061242653**，universe **10759478428**，开发者 **And Collect Insane Animes**，creator group **424082979**。[官方 Roblox 页面](https://www.roblox.com/games/96727061242653/Steal-Anime-Eggs)，[官方元数据](https://games.roblox.com/v1/games?universeIds=10759478428)。
 
 所有页面声明：**This is an unofficial fan-made guide website.** 没有宣称 Roblox 认证、开发者授权或官方 Wiki。插图为原创编辑概念图，明确不是游戏截图或游戏物品证据。
+
+最终人工复核移除了三处未经验证的“游戏有教程”默认假设，改为遵循实际显示的屏幕提示；没有借通用新手建议假造游戏功能。
 
 | 事实范围 | 发布状态 |
 | --- | --- |
