@@ -1,0 +1,22 @@
+---
+const steps = [
+  { label: 'Steal', detail: 'Get eggs', path: 'M16 5c-4 0-9 9-9 14a9 9 0 0 0 18 0c0-5-5-14-9-14Z M12 17l4-4 4 4-4 4-4-4Z' },
+  { label: 'Hatch', detail: 'Collect anime', path: 'm16 4 3.5 8 8.5 1-6.5 6 2 9-7.5-5-7.5 5 2-9-6.5-6 8.5-1L16 4Z' },
+  { label: 'Earn', detail: 'Anime income', path: 'M27 10c0 3-5 5-11 5S5 13 5 10s5-5 11-5 11 2 11 5Z M5 10v6c0 3 5 5 11 5s11-2 11-5v-6 M5 16v6c0 3 5 5 11 5s11-2 11-5v-6' },
+  { label: 'Upgrade', detail: 'Base & treadmill', path: 'M7 27V12l9-8 9 8v15H7Z M16 24V12m-5 5 5-5 5 5' },
+  { label: 'Train', detail: 'Build Speed', path: 'M4 25h24v3H4v-3Z M23 25V6h5 M9 20l6-6 6 3 M12 10l4 3 3-4 M20 5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z' },
+];
+---
+
+<figure class="gameplay-visual">
+  <ol aria-label="Beginner route from the official description">
+    {steps.map((step, index) => (
+      <li>
+        <svg viewBox="0 0 32 32" width="40" height="40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d={step.path} /></svg>
+        <strong><span>{index + 1}.</span> {step.label}</strong>
+        <span>{step.detail}</span>
+      </li>
+    ))}
+  </ol>
+  <figcaption>Our illustrated reading route, based on the <a href="https://www.roblox.com/games/96727061242653/Steal-Anime-Eggs">official description</a>. These are conceptual icons, not in-game menus or items.</figcaption>
+</figure>

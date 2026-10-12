@@ -1,0 +1,24 @@
+---
+import { Image } from 'astro:assets';
+import icon from '../assets/game/steal-anime-eggs-icon.png';
+---
+
+<figure class="game-identity-card" data-artwork="official-icon">
+  <Image
+    src={icon}
+    alt="Roblox listing icon for Steal Anime Eggs: a red-haired avatar carrying an egg beside a dark-haired anime character."
+    width={96}
+    height={96}
+    densities={[1, 2]}
+    format="webp"
+    quality={80}
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption>
+    <strong><a href="https://www.roblox.com/games/96727061242653/Steal-Anime-Eggs">Steal Anime Eggs</a></strong>
+    <span>By And Collect Insane Animes</span>
+    <span class="identity-place">Place 96727061242653</span>
+    <small>Roblox listing icon · checked October 12, 2026. <a href="/sources#image-sources">Source</a>.</small>
+  </figcaption>
+</figure>

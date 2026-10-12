@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T08:42:44.092Z",
+  "checkedAt": "2026-10-12T09:51:42.476Z",
   "origin": "https://stealanimeegg.wiki",
   "routes": [
     "/404",
@@ -23,7 +23,7 @@
     "/updates",
     "/which-game"
   ],
-  "totalChecks": 163,
+  "totalChecks": 172,
   "failures": [],
   "checks": [
     {
@@ -242,7 +242,17 @@
       "detail": ""
     },
     {
+      "name": "/codes anchor /sources#image-sources",
+      "ok": true,
+      "detail": ""
+    },
+    {
       "name": "/codes anchor /about#report-a-correction",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes image alt text",
       "ok": true,
       "detail": ""
     },
@@ -313,6 +323,16 @@
     },
     {
       "name": "/guide valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide anchor /sources#image-sources",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide image alt text",
       "ok": true,
       "detail": ""
     },
@@ -458,6 +478,21 @@
     },
     {
       "name": "/ valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ anchor /sources#image-sources",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ anchor /sources#image-sources",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ image alt text",
       "ok": true,
       "detail": ""
     },
@@ -748,6 +783,16 @@
     },
     {
       "name": "/which-game valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game anchor /sources#image-sources",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game image alt text",
       "ok": true,
       "detail": ""
     },

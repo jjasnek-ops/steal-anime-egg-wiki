@@ -115,6 +115,16 @@
     "date": "2026-10-12",
     "version": "Initial source scope",
     "verificationStatus": "deferred"
+  },
+  {
+    "id": "F08",
+    "fact": "Roblox returned a completed icon and listing thumbnails for the target universe 10759478428. Selected listing thumbnail IDs are 137951411451750 and 88655379086265. These establish artwork provenance only, not actual gameplay or item availability.",
+    "sourceUrl": "https://thumbnails.roblox.com/v1/games/multiget/thumbnails?universeIds=10759478428&countPerUniverse=10&defaults=true&size=768x432&format=Png&isCircular=false",
+    "sourceType": "Roblox official public thumbnail API",
+    "date": "2026-10-12",
+    "version": "Thumbnail version TN3 at capture; no semantic game version",
+    "verificationStatus": "verified",
+    "capture": "image-provenance-2026-10-12.json",
+    "additionalSourceUrl": "https://thumbnails.roblox.com/v1/games/icons?universeIds=10759478428&returnPolicy=PlaceHolder&size=512x512&format=Png&isCircular=false"
   }
 ]
-

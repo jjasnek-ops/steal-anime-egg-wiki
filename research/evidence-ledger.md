@@ -17,7 +17,13 @@ Checked 2026-10-12 (Asia/Shanghai). Target: place 96727061242653, universe 10759
 | D01 | Search results and suggestions mix multiple games with related names. Use place IDs. Historical KD 10 / DR 4 are retained user metrics, not current measurements. | [Source](https://www.google.com/search?q=steal+anime+eggs+codes&hl=en&gl=us&pws=0) | Actual Google US-English SERP and Suggest observation | 2026-10-12 | Nonpersonalized result snapshot; location and index may change | verified |
 | D02 | Complete egg/pet/item/map data, hatch times, drop rates, mutation multipliers, detailed controls, tier rankings, rebirth effects, and specific patch changes are not established by the inspected primary evidence. | [Source](https://games.roblox.com/v1/games?universeIds=10759478428) | Evidence gap / editorial decision | 2026-10-12 | Initial source scope | deferred |
 
+| F08 | Completed game icon and selected listing thumbnails 137951411451750 / 88655379086265 belong to universe 10759478428. They establish artwork provenance only, not gameplay, item availability, or codes. | [Roblox thumbnail API](https://thumbnails.roblox.com/v1/games/multiget/thumbnails?universeIds=10759478428&countPerUniverse=10&defaults=true&size=768x432&format=Png&isCircular=false) and [icon API](https://thumbnails.roblox.com/v1/games/icons?universeIds=10759478428&returnPolicy=PlaceHolder&size=512x512&format=Png&isCircular=false) | Roblox official public thumbnail API | 2026-10-12 | TN3 at capture; no semantic game version | verified |
+
 ## Publication boundaries
 
-A named system is not a verified implementation walkthrough. Advice such as comparing displayed costs or following the tutorial is editorial guidance and is labeled as such. Competitor copy and video titles do not establish game facts. No reward string, timing table, map list, or ranking has been copied from a lookalike game. Changes require a real source recheck; no automated freshness edits are configured.
+A named system is not a verified implementation walkthrough. Advice such as comparing displayed costs or following visible on-screen prompts is editorial guidance and is labeled as such. Competitor copy and video titles do not establish game facts. No reward string, timing table, map list, or ranking has been copied from a lookalike game. Changes require a real source recheck; no automated freshness edits are configured.
 
+
+## Image addition — 2026-10-12
+
+Three exact-universe source bitmaps were visually inspected and selected. The icon is used for the home hero and identity cards; two promotional thumbnails illustrate the home introduction and beginner guide. Captions distinguish promotional artwork from tested gameplay. Responsive local derivatives avoid runtime hotlinks. The original beginner-route diagram describes F02/F03 without presenting fake UI or balance values. Source URL, TN3 version, capture time, and SHA-256 hashes are in image-provenance-2026-10-12.json.

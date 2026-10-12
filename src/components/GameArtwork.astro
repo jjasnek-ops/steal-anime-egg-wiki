@@ -1,0 +1,34 @@
+---
+import { Picture } from 'astro:assets';
+import cover from '../assets/game/steal-anime-eggs-cover.png';
+import guide from '../assets/game/steal-anime-eggs-guide.png';
+
+interface Props { variant: 'cover' | 'guide'; }
+const { variant } = Astro.props;
+const artwork = variant === 'cover' ? {
+  image: cover,
+  alt: 'Steal Anime Eggs promotional artwork: two Roblox avatars carrying eggs with a red armored figure behind them.',
+} : {
+  image: guide,
+  alt: 'Steal Anime Eggs promotional artwork: an orange-haired Roblox avatar beside a blue egg, with a white-haired anime character behind them.',
+};
+---
+
+<figure class="game-artwork" data-artwork="official-listing">
+  <Picture
+    src={artwork.image}
+    alt={artwork.alt}
+    formats={['avif', 'webp']}
+    fallbackFormat="jpg"
+    widths={[384, 767]}
+    sizes="(max-width: 50rem) calc(100vw - 3rem), 767px"
+    width={767}
+    height={432}
+    quality={75}
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption>
+    Promotional artwork from the <a href="https://www.roblox.com/games/96727061242653/Steal-Anime-Eggs">game's Roblox listing</a>, checked October 12, 2026. Artwork is not a tested gameplay screenshot. <a href="/sources#image-sources">Image sources</a>.
+  </figcaption>
+</figure>

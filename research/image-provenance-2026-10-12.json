@@ -1,0 +1,96 @@
+{
+  "recordedAt": "2026-10-12T09:48:04.157Z",
+  "placeId": 96727061242653,
+  "universeId": 10759478428,
+  "images": [
+    {
+      "targetId": 10759478428,
+      "state": "Completed",
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-e2c9c9449ef1cb765b4aef3a313384c9/512/512/Image/Png/noFilter",
+      "version": "TN3",
+      "name": "game-icon.png",
+      "kind": "icon",
+      "bytes": 406541,
+      "sha256": "475446cc4c1a88b8fce15d6f8e7618e1083f6798410ed5b1523a9aeaa8677084",
+      "capturedAt": "2026-10-12T09:42:39.150Z",
+      "universeId": 10759478428,
+      "placeId": 96727061242653,
+      "file": "src/assets/game/steal-anime-eggs-icon.png",
+      "pages": [
+        "/",
+        "/codes",
+        "/which-game"
+      ],
+      "role": "Exact-game visual identity",
+      "width": 512,
+      "height": 512,
+      "endpoint": "https://thumbnails.roblox.com/v1/games/icons?universeIds=10759478428&returnPolicy=PlaceHolder&size=512x512&format=Png&isCircular=false",
+      "sourceType": "Roblox official public thumbnail API",
+      "visualInspection": "Inspected source bitmap before publication; promotional art, not a tested gameplay screenshot",
+      "verificationStatus": "verified-exact-universe-listing-artwork",
+      "rights": "Third-party artwork and characters remain the property of their respective rights holders; excluded from MIT license; no endorsement claimed"
+    },
+    {
+      "targetId": 137951411451750,
+      "state": "Completed",
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-c3340e6ec0f97873d5e01ebea19e3416/768/432/Image/Png/noFilter",
+      "version": "TN3",
+      "name": "game-thumbnail-1.png",
+      "kind": "listing-thumbnail",
+      "bytes": 585480,
+      "sha256": "fd923afab45c774187f8d41ef2d8a2ebd6fec02ad4e76205b2b443c35bf4804e",
+      "capturedAt": "2026-10-12T09:42:39.741Z",
+      "universeId": 10759478428,
+      "placeId": 96727061242653,
+      "file": "src/assets/game/steal-anime-eggs-cover.png",
+      "pages": [
+        "/"
+      ],
+      "role": "Promotional game introduction",
+      "width": 767,
+      "height": 432,
+      "endpoint": "https://thumbnails.roblox.com/v1/games/multiget/thumbnails?universeIds=10759478428&countPerUniverse=10&defaults=true&size=768x432&format=Png&isCircular=false",
+      "sourceType": "Roblox official public thumbnail API",
+      "visualInspection": "Inspected source bitmap before publication; promotional art, not a tested gameplay screenshot",
+      "verificationStatus": "verified-exact-universe-listing-artwork",
+      "rights": "Third-party artwork and characters remain the property of their respective rights holders; excluded from MIT license; no endorsement claimed",
+      "dimensionNote": "Roblox request size 768x432; returned source bitmap is 767x432, confirmed with Sharp metadata."
+    },
+    {
+      "targetId": 88655379086265,
+      "state": "Completed",
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-a791b13cf7012a5c5ee10cab7d4e79ad/768/432/Image/Png/noFilter",
+      "version": "TN3",
+      "name": "game-thumbnail-2.png",
+      "kind": "listing-thumbnail",
+      "bytes": 514860,
+      "sha256": "021f1b27ef8cec387e16e03eec8f486d581aefefca491762c0b1ef8fa0bd2e0c",
+      "capturedAt": "2026-10-12T09:42:40.124Z",
+      "universeId": 10759478428,
+      "placeId": 96727061242653,
+      "file": "src/assets/game/steal-anime-eggs-guide.png",
+      "pages": [
+        "/guide"
+      ],
+      "role": "Promotional guide illustration",
+      "width": 767,
+      "height": 432,
+      "endpoint": "https://thumbnails.roblox.com/v1/games/multiget/thumbnails?universeIds=10759478428&countPerUniverse=10&defaults=true&size=768x432&format=Png&isCircular=false",
+      "sourceType": "Roblox official public thumbnail API",
+      "visualInspection": "Inspected source bitmap before publication; promotional art, not a tested gameplay screenshot",
+      "verificationStatus": "verified-exact-universe-listing-artwork",
+      "rights": "Third-party artwork and characters remain the property of their respective rights holders; excluded from MIT license; no endorsement claimed",
+      "dimensionNote": "Roblox request size 768x432; returned source bitmap is 767x432, confirmed with Sharp metadata."
+    }
+  ],
+  "editorialIllustration": {
+    "file": "src/components/GameplayLoop.astro",
+    "type": "Original responsive vector diagram",
+    "basis": [
+      "F02",
+      "F03"
+    ],
+    "status": "Conceptual reading route, not in-game UI or game items"
+  },
+  "publicationBoundary": "Artwork is evidence of the listing image only, not character names, rarity, mechanics, rewards, codes, or gameplay observations."
+}

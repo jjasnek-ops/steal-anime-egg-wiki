@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-12T09:57:16.576Z",
+  "requestedViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "pages": [
+    {
+      "clientWidth": 375,
+      "diagram": null,
+      "images": [
+        {
+          "alt": "Roblox listing icon for Steal Anime Eggs: a red-haired avatar carrying an egg beside a dark-haired anime character.",
+          "height": 240,
+          "heightAttribute": "400",
+          "loaded": true,
+          "loading": "eager",
+          "src": "http://127.0.0.1:4323/_astro/steal-anime-eggs-icon.DLGT4zg2_1yRtsV.webp",
+          "width": 240,
+          "widthAttribute": "400"
+        },
+        {
+          "alt": "Steal Anime Eggs promotional artwork: two Roblox avatars carrying eggs with a red armored figure behind them.",
+          "height": 191.8125,
+          "heightAttribute": "432",
+          "loaded": true,
+          "loading": "lazy",
+          "src": "http://127.0.0.1:4323/_astro/steal-anime-eggs-cover.J1RCmioH_ZHjCt7.avif",
+          "width": 341,
+          "widthAttribute": "767"
+        }
+      ],
+      "route": "/",
+      "scrollWidth": 375,
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "diagram": null,
+      "images": [
+        {
+          "alt": "Roblox listing icon for Steal Anime Eggs: a red-haired avatar carrying an egg beside a dark-haired anime character.",
+          "height": 72,
+          "heightAttribute": "96",
+          "loaded": false,
+          "loading": "lazy",
+          "src": "",
+          "width": 72,
+          "widthAttribute": "96"
+        }
+      ],
+      "route": "/codes",
+      "scrollWidth": 375,
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "diagram": "166.703px 166.703px",
+      "images": [
+        {
+          "alt": "Steal Anime Eggs promotional artwork: an orange-haired Roblox avatar beside a blue egg, with a white-haired anime character behind them.",
+          "height": 191.8125,
+          "heightAttribute": "432",
+          "loaded": true,
+          "loading": "lazy",
+          "src": "http://127.0.0.1:4323/_astro/steal-anime-eggs-guide.CS4bNPyq_u6acE.avif",
+          "width": 341,
+          "widthAttribute": "767"
+        }
+      ],
+      "route": "/guide",
+      "scrollWidth": 375,
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "diagram": null,
+      "images": [
+        {
+          "alt": "Roblox listing icon for Steal Anime Eggs: a red-haired avatar carrying an egg beside a dark-haired anime character.",
+          "height": 72,
+          "heightAttribute": "96",
+          "loaded": true,
+          "loading": "lazy",
+          "src": "http://127.0.0.1:4323/_astro/steal-anime-eggs-icon.DLGT4zg2_1lpSsj.webp",
+          "width": 72,
+          "widthAttribute": "96"
+        }
+      ],
+      "route": "/which-game",
+      "scrollWidth": 375,
+      "viewport": 390
+    },
+    {
+      "clientWidth": 375,
+      "diagram": null,
+      "images": [],
+      "route": "/sources",
+      "scrollWidth": 375,
+      "viewport": 390
+    }
+  ]
+}

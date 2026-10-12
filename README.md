@@ -62,3 +62,5 @@ Run `pnpm verify` for source/build checks. Run `pnpm audit:live` against the fix
 
 The site uses the MIT-licensed [Starlight](https://github.com/withastro/starlight) documentation/wiki template and [Astro](https://github.com/withastro/astro). The self-owned Maid Cafe Simulator wiki was inspected as a template reference; its game content and identity were not copied. Original editorial egg graphics are not game screenshots. Game names and trademarks belong to their owners.
 
+Game artwork added on October 12, 2026 is sourced from the exact target universe's official Roblox thumbnail API. It appears on the homepage, beginner guide, and game identity cards. Astro generates local responsive AVIF/WebP/JPEG assets for wide illustrations, with explicit dimensions and lazy loading; the homepage icon loads eagerly. No image hotlink or third-party image request is needed at runtime. Provenance is in research/image-provenance-2026-10-12.json and image-update acceptance is recorded in reports/images-update.md. See NOTICE.md for third-party artwork attribution.
+
