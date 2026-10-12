@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T04:31:05.759Z",
+  "checkedAt": "2026-10-12T06:44:11.672Z",
   "origin": "https://stealanimeegg.wiki",
   "routes": [
     "/404",
@@ -114,7 +114,7 @@
     {
       "name": "/about distinct title",
       "ok": true,
-      "detail": "About Steal Anime Egg Wiki | Steal Anime Egg Wiki"
+      "detail": "About Steal Anime Egg Wiki"
     },
     {
       "name": "/about description length",
@@ -184,7 +184,7 @@
     {
       "name": "/codes distinct title",
       "ok": true,
-      "detail": "Steal Anime Eggs Codes: Current Verified Status | Steal Anime Egg Wiki"
+      "detail": "Steal Anime Eggs Codes: Current Verified Status"
     },
     {
       "name": "/codes description length",
@@ -259,7 +259,7 @@
     {
       "name": "/guide distinct title",
       "ok": true,
-      "detail": "Steal Anime Eggs Beginner Guide | Steal Anime Egg Wiki"
+      "detail": "Steal Anime Eggs Beginner Guide"
     },
     {
       "name": "/guide description length",
@@ -329,7 +329,7 @@
     {
       "name": "/guides distinct title",
       "ok": true,
-      "detail": "Steal Anime Eggs Guides | Steal Anime Egg Wiki"
+      "detail": "Steal Anime Eggs Guides"
     },
     {
       "name": "/guides description length",
@@ -404,7 +404,7 @@
     {
       "name": "/ distinct title",
       "ok": true,
-      "detail": "Steal Anime Eggs Wiki: Codes & Beginner Guide | Steal Anime Egg Wiki"
+      "detail": "Steal Anime Eggs Wiki — Codes & Beginner Guide"
     },
     {
       "name": "/ description length",
@@ -624,7 +624,7 @@
     {
       "name": "/updates distinct title",
       "ok": true,
-      "detail": "Steal Anime Eggs Update Status | Steal Anime Egg Wiki"
+      "detail": "Steal Anime Eggs Update Status"
     },
     {
       "name": "/updates description length",
@@ -694,7 +694,7 @@
     {
       "name": "/which-game distinct title",
       "ok": true,
-      "detail": "Which Steal Anime Eggs Game Is This? | Steal Anime Egg Wiki"
+      "detail": "Which Steal Anime Eggs Game Is This?"
     },
     {
       "name": "/which-game description length",

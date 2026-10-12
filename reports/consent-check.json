@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-12T06:44:03.241Z",
+  "method": "Isolated execution of the actual transpiled client script. This is not proof of a real GA4 network receipt.",
+  "checks": [
+    {
+      "name": "No Google tag loads before opt-in on production",
+      "ok": true
+    },
+    {
+      "name": "Opt-in uses the exact created stream and disables advertising signals",
+      "ok": true
+    },
+    {
+      "name": "Revocation sets the documented opt-out flag and only clears analytics cookies",
+      "ok": true
+    },
+    {
+      "name": "Preferences can be changed without adding duplicate Google tags",
+      "ok": true
+    },
+    {
+      "name": "Persisted refusal blocks analytics on later visits",
+      "ok": true
+    },
+    {
+      "name": "Preview origin cannot send production analytics",
+      "ok": true
+    },
+    {
+      "name": "Blocked storage still requires an explicit choice for the current visit",
+      "ok": true
+    }
+  ]
+}

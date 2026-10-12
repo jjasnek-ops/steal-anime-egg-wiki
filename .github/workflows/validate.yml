@@ -18,6 +18,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
+      - run: pnpm consent:check
       - run: pnpm build
       - run: pnpm audit:site
       - uses: actions/upload-artifact@v4
@@ -25,5 +26,6 @@ jobs:
           name: cloudflare-pages-dist
           path: dist/
           retention-days: 14
+
 
 

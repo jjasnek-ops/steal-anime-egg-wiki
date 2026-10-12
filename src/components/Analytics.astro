@@ -1,0 +1,97 @@
+---
+const measurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || 'G-2PSTQYJ16Z';
+const configured = /^G-[A-Z0-9]+$/.test(measurementId);
+---
+{configured && <div id="analytics-controls" data-measurement-id={measurementId} data-pagefind-ignore>
+  <button class="analytics-preferences" type="button" id="analytics-preferences">Analytics preferences</button>
+  <section id="analytics-banner" aria-labelledby="analytics-heading" hidden>
+    <div>
+      <strong id="analytics-heading">Help improve this guide</strong>
+      <p>Allow optional analytics to measure visits? <a href="/privacy">Privacy details</a></p>
+    </div>
+    <div class="analytics-actions">
+      <button type="button" id="analytics-allow">Allow analytics</button>
+      <button type="button" id="analytics-decline">No thanks</button>
+    </div>
+    <p id="analytics-status" class="sr-only" role="status"></p>
+  </section>
+</div>}
+<script>
+  const controls = document.querySelector<HTMLElement>('#analytics-controls');
+  const id = controls?.dataset.measurementId || '';
+  const disableKey: `ga-disable-${string}` = `ga-disable-${id}`;
+  const key = 'stealanimeegg-analytics-consent';
+  const banner = document.querySelector<HTMLElement>('#analytics-banner');
+  const status = document.querySelector<HTMLElement>('#analytics-status');
+  let loaded = false;
+  const production = location.hostname === 'stealanimeegg.wiki';
+  const globals = window as typeof window & {
+    dataLayer?: unknown[];
+    gtag?: (...args: unknown[]) => void;
+    [key: `ga-disable-${string}`]: boolean | undefined;
+  };
+  const readChoice = () => { try { return localStorage.getItem(key); } catch { return null; } };
+  const storeChoice = (choice: string) => { try { localStorage.setItem(key, choice); } catch { /* This visit still honors the selected choice. */ } };
+  function startAnalytics() {
+    if (!production || !/^G-[A-Z0-9]+$/.test(id)) return;
+    globals[disableKey] = false;
+    globals.dataLayer ||= [];
+    globals.gtag ||= function() { globals.dataLayer!.push(arguments); };
+    if (loaded) {
+      globals.gtag('consent', 'update', { analytics_storage: 'granted' });
+      return;
+    }
+    loaded = true;
+    globals.gtag('consent', 'default', {
+      analytics_storage: 'granted',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+    });
+    globals.gtag('js', new Date());
+    globals.gtag('config', id, {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+      cookie_flags: 'SameSite=Lax;Secure',
+    });
+    const script = document.createElement('script');
+    script.id = 'optional-google-analytics';
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+    document.head.append(script);
+  }
+  function declineAnalytics() {
+    globals[disableKey] = true;
+    globals.gtag?.('consent', 'update', { analytics_storage: 'denied' });
+    for (const cookie of document.cookie.split(';')) {
+      const name = cookie.trim().split('=')[0];
+      if (!name?.startsWith('_ga')) continue;
+      document.cookie = name + '=; Max-Age=0; path=/; Secure; SameSite=Lax';
+      document.cookie = name + '=; Max-Age=0; path=/; domain=' + location.hostname + '; Secure; SameSite=Lax';
+    }
+  }
+  function choose(accept: boolean) {
+    storeChoice(accept ? 'accepted' : 'declined');
+    if (accept) startAnalytics(); else declineAnalytics();
+    if (banner) banner.hidden = true;
+    if (status) status.textContent = accept ? 'Optional analytics allowed.' : 'Optional analytics declined.';
+  }
+  document.querySelector('#analytics-allow')?.addEventListener('click', () => choose(true));
+  document.querySelector('#analytics-decline')?.addEventListener('click', () => choose(false));
+  document.querySelector('#analytics-preferences')?.addEventListener('click', () => {
+    if (banner) { banner.hidden = false; document.querySelector<HTMLButtonElement>('#analytics-allow')?.focus(); }
+  });
+  const choice = readChoice();
+  if (choice === 'accepted') startAnalytics();
+  else if (choice === 'declined') declineAnalytics();
+  else if (production && banner) banner.hidden = false;
+</script>
+<style>
+  .analytics-preferences { padding: 0; margin-top: 1rem; border: 0; background: none; color: var(--sl-color-text-accent); cursor: pointer; font: inherit; text-decoration: underline; }
+  #analytics-banner:not([hidden]) { position: fixed; z-index: 100; inset: auto 1rem 1rem auto; width: min(30rem, calc(100vw - 2rem)); padding: 1.1rem; background: var(--sl-color-bg-nav); border: 1px solid var(--sl-color-gray-5); border-radius: .6rem; box-shadow: 0 .7rem 2.5rem #0003; color: var(--sl-color-text); font-size: .86rem; }
+  #analytics-banner p { margin: .4rem 0 .75rem; }
+  .analytics-actions { display: flex; flex-wrap: wrap; gap: .65rem; }
+  .analytics-actions button { border: 1px solid var(--sl-color-accent); border-radius: .35rem; padding: .55rem .8rem; font: inherit; font-weight: 650; cursor: pointer; background: var(--sl-color-accent-low); color: var(--sl-color-text-accent); }
+  #analytics-allow { background: var(--sl-color-text-accent); color: var(--sl-color-bg); }
+</style>
+

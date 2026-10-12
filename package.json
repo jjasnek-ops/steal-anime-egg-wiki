@@ -15,12 +15,13 @@
     "build": "astro build",
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check",
-    "verify": "pnpm check && pnpm build && pnpm audit:site",
+    "verify": "pnpm check && pnpm consent:check && pnpm build && pnpm audit:site",
     "deploy": "wrangler pages deploy dist --project-name steal-anime-egg-wiki --branch main",
     "refresh-evidence": "node scripts/capture-roblox.mjs",
     "prebuild": "node scripts/generate-assets.mjs",
     "postbuild": "node scripts/postbuild.mjs",
-    "audit:site": "node scripts/audit.mjs"
+    "audit:site": "node scripts/audit.mjs",
+    "consent:check": "node scripts/check-consent.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "0.42.6",

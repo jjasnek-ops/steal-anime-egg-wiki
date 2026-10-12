@@ -1,7 +1,8 @@
 ---
 import DefaultHead from '@astrojs/starlight/components/Head.astro';
 const data = Astro.locals.starlightRoute.entry.data;
-Astro.locals.starlightRoute.head = Astro.locals.starlightRoute.head.filter(({ tag, attrs }) => !(tag === 'link' && attrs?.rel === 'canonical') && !(tag === 'meta' && (['og:url', 'og:image', 'og:image:width', 'og:image:height', 'og:image:alt'].includes(String(attrs?.property)) || ['twitter:card', 'twitter:image'].includes(String(attrs?.name)))));
+const seoTitle = data.pageKind === 'home' ? 'Steal Anime Eggs Wiki — Codes & Beginner Guide' : data.pageKind === 'trust' && !data.title.includes('Steal Anime Egg Wiki') ? data.title + ' | Steal Anime Egg Wiki' : data.title;
+Astro.locals.starlightRoute.head = Astro.locals.starlightRoute.head.filter(({ tag, attrs }) => tag !== 'title' && !(tag === 'link' && attrs?.rel === 'canonical') && !(tag === 'meta' && (['og:title', 'og:url', 'og:image', 'og:image:width', 'og:image:height', 'og:image:alt'].includes(String(attrs?.property)) || ['twitter:card', 'twitter:image'].includes(String(attrs?.name)))));
 const origin = 'https://stealanimeegg.wiki';
 const pagePath = Astro.url.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
 const url = new URL(pagePath, origin).href;
@@ -19,6 +20,8 @@ if (!isHome) graph.push({ '@type': 'BreadcrumbList', itemListElement: [
 const verification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 ---
 <DefaultHead><slot /></DefaultHead>
+<title>{seoTitle}</title>
+<meta property="og:title" content={seoTitle} />
 <link rel="canonical" href={url} />
 <meta property="og:url" content={url} />
 <meta property="og:image" content={image} />
