@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-12T08:30:30.876Z",
+  "rows": [
+    [
+      "https://stealanimeegg.wiki/sitemap-0.xml",
+      "Unknown",
+      "Oct 12, 2026",
+      "",
+      "Couldn't fetch",
+      "0",
+      "0",
+      ""
+    ],
+    [
+      "https://stealanimeegg.wiki/sitemap-index.xml",
+      "Unknown",
+      "Oct 12, 2026",
+      "",
+      "Couldn't fetch",
+      "0",
+      "0",
+      ""
+    ]
+  ],
+  "liveFetchVerified": true,
+  "processingSuccessConfirmed": false,
+  "existingIndexResubmitButton": "Disabled for the existing URL; original submission retained; no record removed"
+}

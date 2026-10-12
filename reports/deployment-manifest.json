@@ -1,0 +1,43 @@
+{
+  "recordedAt": "2026-10-12T08:36:17.678Z",
+  "production": "https://stealanimeegg.wiki",
+  "github": "https://github.com/jjasnek-ops/steal-anime-egg-wiki",
+  "pagesProject": "steal-anime-egg-wiki",
+  "pagesUrl": "https://steal-anime-egg-wiki.pages.dev",
+  "deploymentMethod": "Cloudflare Pages dashboard Direct Upload",
+  "environment": "Production",
+  "branch": "main",
+  "filesUploaded": 52,
+  "contentSourceCommit": "1878e7b53ad3ce04d08256fca33d67c1cdff5c16",
+  "sourceCommitNote": "Later delivery commits add acceptance records and documentation; deployed frontend content corresponds to this commit.",
+  "artifact": "steal-anime-egg-pages.zip",
+  "artifactSha256": "2f45258f1f56fe902a3697a3e3fac2f42198e8c2c8ebd316e907e94fb45a29f0",
+  "artifactBytes": 519823,
+  "google": {
+    "gscProperty": "sc-domain:stealanimeegg.wiki",
+    "verification": "Manual Cloudflare TXT; ownership verified",
+    "ga4Property": "558494686",
+    "stream": "16109747416",
+    "measurementId": "G-2PSTQYJ16Z",
+    "realtimeReceptionVerified": true,
+    "homeIndexed": true,
+    "codesIndexingRequested": true,
+    "codesIndexedConfirmed": false,
+    "sitemapsSubmitted": true,
+    "sitemapLiveFetchVerified": true,
+    "sitemapReportSuccessConfirmed": false
+  },
+  "dnssec": {
+    "nameservers": [
+      "armfazh.ns.cloudflare.com",
+      "laura.ns.cloudflare.com"
+    ],
+    "keyTag": 2371,
+    "algorithm": 13,
+    "digestType": 2,
+    "digest": "415988417922E0330E549CC7C23B0FF00FFD52588488C6DE00D2D384A08BF607",
+    "publicValidationAD": true
+  },
+  "purchasesMade": false,
+  "gitAutoDeploymentConnected": false
+}

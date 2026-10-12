@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-12T08:28:24.495Z",
+  "analyticsOptIn": {
+    "before": 0,
+    "after": 1,
+    "measurementId": "G-2PSTQYJ16Z",
+    "observed": "Actual production DOM plus GA4 realtime page_view"
+  },
+  "analyticsWithdrawal": {
+    "googleScriptsAfterRefusalAndReload": 0,
+    "title": "Steal Anime Eggs Wiki — Codes & Beginner Guide",
+    "url": "https://stealanimeegg.wiki/",
+    "width": 1086
+  },
+  "search": {
+    "query": "treadmill",
+    "pageResults": 4,
+    "navigation": "https://stealanimeegg.wiki/guide#5-train-speed-on-the-treadmill",
+    "verified": true
+  }
+}
