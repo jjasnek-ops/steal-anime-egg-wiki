@@ -1,0 +1,38 @@
+{
+  "name": "steal-anime-egg-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Unofficial, evidence-backed English guide to Roblox Steal Anime Eggs.",
+  "homepage": "https://stealanimeegg.wiki",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "check": "astro check",
+    "verify": "pnpm check && pnpm build && pnpm audit:site",
+    "deploy": "wrangler pages deploy dist --project-name steal-anime-egg-wiki --branch main",
+    "refresh-evidence": "node scripts/capture-roblox.mjs",
+    "prebuild": "node scripts/generate-assets.mjs",
+    "postbuild": "node scripts/postbuild.mjs",
+    "audit:site": "node scripts/audit.mjs"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.42.6",
+    "astro": "7.3.8",
+    "@astrojs/mdx": "8.0.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "typescript": "5.9.3",
+    "sharp": "0.35.4",
+    "cheerio": "1.2.0",
+    "@resvg/resvg-js": "2.6.2",
+    "wrangler": "4.149.0"
+  }
+}

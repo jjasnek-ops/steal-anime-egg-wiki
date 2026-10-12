@@ -1,0 +1,845 @@
+{
+  "checkedAt": "2026-10-12T04:31:05.759Z",
+  "origin": "https://stealanimeegg.wiki",
+  "routes": [
+    "/404",
+    "/about",
+    "/codes",
+    "/guide",
+    "/guides",
+    "/",
+    "/privacy",
+    "/sources",
+    "/updates",
+    "/which-game"
+  ],
+  "indexableRoutes": [
+    "/about",
+    "/codes",
+    "/guide",
+    "/guides",
+    "/",
+    "/sources",
+    "/updates",
+    "/which-game"
+  ],
+  "totalChecks": 163,
+  "failures": [],
+  "checks": [
+    {
+      "name": "All expected routes generated",
+      "ok": true,
+      "detail": "/404, /about, /codes, /guide, /guides, /, /privacy, /sources, /updates, /which-game"
+    },
+    {
+      "name": "/404 unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 distinct title",
+      "ok": true,
+      "detail": "Page not found | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/404 description length",
+      "ok": true,
+      "detail": "132"
+    },
+    {
+      "name": "/404 distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/404 English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/404"
+    },
+    {
+      "name": "/404 production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 anchor /about#report-a-correction",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/404 image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about distinct title",
+      "ok": true,
+      "detail": "About Steal Anime Egg Wiki | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/about description length",
+      "ok": true,
+      "detail": "137"
+    },
+    {
+      "name": "/about distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/about English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/about"
+    },
+    {
+      "name": "/about production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/about image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes distinct title",
+      "ok": true,
+      "detail": "Steal Anime Eggs Codes: Current Verified Status | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/codes description length",
+      "ok": true,
+      "detail": "144"
+    },
+    {
+      "name": "/codes distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/codes English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/codes"
+    },
+    {
+      "name": "/codes production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes anchor /about#report-a-correction",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/codes image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide distinct title",
+      "ok": true,
+      "detail": "Steal Anime Eggs Beginner Guide | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/guide description length",
+      "ok": true,
+      "detail": "138"
+    },
+    {
+      "name": "/guide distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/guide English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/guide"
+    },
+    {
+      "name": "/guide production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guide image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides distinct title",
+      "ok": true,
+      "detail": "Steal Anime Eggs Guides | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/guides description length",
+      "ok": true,
+      "detail": "131"
+    },
+    {
+      "name": "/guides distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/guides English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/guides"
+    },
+    {
+      "name": "/guides production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides anchor /about#report-a-correction",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/guides image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ distinct title",
+      "ok": true,
+      "detail": "Steal Anime Eggs Wiki: Codes & Beginner Guide | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/ description length",
+      "ok": true,
+      "detail": "139"
+    },
+    {
+      "name": "/ distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/ English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/"
+    },
+    {
+      "name": "/ production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/ image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy distinct title",
+      "ok": true,
+      "detail": "Privacy | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/privacy description length",
+      "ok": true,
+      "detail": "130"
+    },
+    {
+      "name": "/privacy distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/privacy English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/privacy"
+    },
+    {
+      "name": "/privacy production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/privacy image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources distinct title",
+      "ok": true,
+      "detail": "Sources & Verification | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/sources description length",
+      "ok": true,
+      "detail": "136"
+    },
+    {
+      "name": "/sources distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/sources English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/sources"
+    },
+    {
+      "name": "/sources production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources anchor /about#report-a-correction",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/sources image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates distinct title",
+      "ok": true,
+      "detail": "Steal Anime Eggs Update Status | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/updates description length",
+      "ok": true,
+      "detail": "141"
+    },
+    {
+      "name": "/updates distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/updates English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/updates"
+    },
+    {
+      "name": "/updates production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/updates image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game unique title element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game distinct title",
+      "ok": true,
+      "detail": "Which Steal Anime Eggs Game Is This? | Steal Anime Egg Wiki"
+    },
+    {
+      "name": "/which-game description length",
+      "ok": true,
+      "detail": "144"
+    },
+    {
+      "name": "/which-game distinct description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game one H1",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "/which-game English document language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game production canonical",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/which-game"
+    },
+    {
+      "name": "/which-game production Open Graph URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game production image URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game single Twitter card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game unofficial disclaimer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game JSON-LD present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game valid schema context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "/which-game image alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Codes answers first and contains no invented active record",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Privacy noindex",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sitemap contains exactly indexable routes",
+      "ok": true,
+      "detail": "https://stealanimeegg.wiki/, https://stealanimeegg.wiki/about, https://stealanimeegg.wiki/codes, https://stealanimeegg.wiki/guide, https://stealanimeegg.wiki/guides, https://stealanimeegg.wiki/sources, https://stealanimeegg.wiki/updates, https://stealanimeegg.wiki/which-game"
+    },
+    {
+      "name": "Sitemap origin and paths",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No noindex pages in sitemap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Robots points to production sitemap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Static Pagefind index present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "404.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "about.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "codes.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "guide.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "guides.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "index.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "privacy.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "sources.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "updates.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "which-game.mdx fact references exist",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

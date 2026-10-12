@@ -1,0 +1,34 @@
+name: Sourced correction
+description: Report an incorrect or missing fact about the exact Roblox game.
+title: "[Correction] "
+labels: []
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Wiki page
+      placeholder: https://stealanimeegg.wiki/codes
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Statement and correction
+      description: State the current claim and what the evidence supports. Do not include private account data.
+    validations:
+      required: true
+  - type: input
+    id: identity
+    attributes:
+      label: Roblox place or universe ID
+      value: "96727061242653"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and date
+      description: Link a developer announcement or exact-game observation. Include the observed date and version if known.
+    validations:
+      required: true
+

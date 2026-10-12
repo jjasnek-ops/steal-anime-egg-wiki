@@ -1,0 +1,23 @@
+# Evidence ledger
+
+Checked 2026-10-12 (Asia/Shanghai). Target: place 96727061242653, universe 10759478428. No semantic game version or in-game test is claimed.
+
+| ID | Fact | Source URL | Source Type | Date | Version | Verification Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| F01 | The target is Steal Anime Eggs, place 96727061242653, universe 10759478428, creator And Collect Insane Animes (group 424082979). | [Source](https://games.roblox.com/v1/games?universeIds=10759478428) | Roblox official public API | 2026-10-12 | Public metadata snapshot; no semantic version supplied | verified |
+| F02 | The official description names taking eggs from anime, hatching collectible anime, and money earned from anime. | [Source](https://games.roblox.com/v1/games?universeIds=10759478428) | Roblox official description/API | 2026-10-12 | Current description at capture | verified |
+| F03 | The description names treadmill and base upgrades, with treadmill training increasing Speed. | [Source](https://games.roblox.com/v1/games?universeIds=10759478428) | Roblox official description/API | 2026-10-12 | Current description at capture | verified |
+| F04 | The description names egg stealing from other players, rarer eggs and anime, sizes, and mutations. It does not establish protection rules or numeric effects. | [Source](https://games.roblox.com/v1/games?universeIds=10759478428) | Roblox official description/API | 2026-10-12 | Current description at capture | verified |
+| F05 | The official listing supports desktop, console, mobile, and tablet; maxPlayers is 6. | [Source](https://games.roblox.com/v1/games?universeIds=10759478428) | Roblox official description/API | 2026-10-12 | Current metadata at capture | verified |
+| F06 | Steal an Anime Egg! by BlinkWorks Studios is place 76377501906469 / universe 10747748563. Steal Anime Eggs & FIGHT! by Jimmyz Enterprises is place 137671992254032 / universe 10763691543. Neither is the target. | [Source](https://games.roblox.com/v1/games?universeIds=10747748563,10763691543) | Roblox official public API | 2026-10-12 | Names at capture, not historical aliases | verified |
+| F07 | Target created field: 2026-08-24T17:22:18.799Z; updated field: 2026-10-12T00:45:27.072Z. These are metadata times, not proof of launch or patch contents. | [Source](https://games.roblox.com/v1/games?universeIds=10759478428) | Roblox official public API | 2026-10-12 | Public metadata snapshot | verified |
+| C01 | No active code was verified in the launch's public-source checks. No game-client redemption test occurred. This is a bounded negative finding, not proof that no system or undiscovered code exists. | [Source](https://www.roblox.com/games/96727061242653/Steal-Anime-Eggs) | Official-source check plus search discovery | 2026-10-12 | Public sources only; no in-game scope | checked-no-verified-code |
+| C02 | Creator group API description is empty and shout is null in this snapshot. This does not establish absence of notices in private channels or the game. | [Source](https://groups.roblox.com/v1/groups/424082979) | Roblox official public API | 2026-10-12 | Group metadata snapshot | verified |
+| C03 | No formerly verified active code exists in this new site's code history; no verified expired code is published. Redemption UI and exact steps remain unverified. | [Source](https://www.roblox.com/games/96727061242653/Steal-Anime-Eggs) | Editorial verification record | 2026-10-12 | Initial record, not complete historical audit | unverified |
+| D01 | Search results and suggestions mix multiple games with related names. Use place IDs. Historical KD 10 / DR 4 are retained user metrics, not current measurements. | [Source](https://www.google.com/search?q=steal+anime+eggs+codes&hl=en&gl=us&pws=0) | Actual Google US-English SERP and Suggest observation | 2026-10-12 | Nonpersonalized result snapshot; location and index may change | verified |
+| D02 | Complete egg/pet/item/map data, hatch times, drop rates, mutation multipliers, detailed controls, tier rankings, rebirth effects, and specific patch changes are not established by the inspected primary evidence. | [Source](https://games.roblox.com/v1/games?universeIds=10759478428) | Evidence gap / editorial decision | 2026-10-12 | Initial source scope | deferred |
+
+## Publication boundaries
+
+A named system is not a verified implementation walkthrough. Advice such as comparing displayed costs or following the tutorial is editorial guidance and is labeled as such. Competitor copy and video titles do not establish game facts. No reward string, timing table, map list, or ranking has been copied from a lookalike game. Changes require a real source recheck; no automated freshness edits are configured.
+

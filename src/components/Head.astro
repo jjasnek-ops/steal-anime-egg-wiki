@@ -1,0 +1,32 @@
+---
+import DefaultHead from '@astrojs/starlight/components/Head.astro';
+const data = Astro.locals.starlightRoute.entry.data;
+Astro.locals.starlightRoute.head = Astro.locals.starlightRoute.head.filter(({ tag, attrs }) => !(tag === 'link' && attrs?.rel === 'canonical') && !(tag === 'meta' && (['og:url', 'og:image', 'og:image:width', 'og:image:height', 'og:image:alt'].includes(String(attrs?.property)) || ['twitter:card', 'twitter:image'].includes(String(attrs?.name)))));
+const origin = 'https://stealanimeegg.wiki';
+const pagePath = Astro.url.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+const url = new URL(pagePath, origin).href;
+const image = new URL('/og/wiki.png', origin).href;
+const isHome = pagePath === '/';
+const graph: Record<string, unknown>[] = [
+  { '@type': 'Organization', '@id': origin + '/#publisher', name: 'Steal Anime Egg Wiki', url: origin, description: 'Unofficial fan-made guide website.', logo: origin + '/favicon.svg' },
+  { '@type': 'WebSite', '@id': origin + '/#website', url: origin, name: 'Steal Anime Egg Wiki', inLanguage: 'en', publisher: { '@id': origin + '/#publisher' } },
+  { '@type': data.pageKind === 'article' ? 'Article' : 'WebPage', '@id': url + '#page', url, headline: data.title, description: data.description, inLanguage: 'en', image, isPartOf: { '@id': origin + '/#website' }, publisher: { '@id': origin + '/#publisher' }, ...(data.pageKind === 'article' ? { datePublished: '2026-10-12', dateModified: data.lastVerified, author: { '@id': origin + '/#publisher' } } : {}) },
+];
+if (!isHome) graph.push({ '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: 'Home', item: origin + '/' },
+  { '@type': 'ListItem', position: 2, name: data.title, item: url },
+] });
+const verification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+---
+<DefaultHead><slot /></DefaultHead>
+<link rel="canonical" href={url} />
+<meta property="og:url" content={url} />
+<meta property="og:image" content={image} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Steal Anime Egg Wiki — unofficial Roblox codes status and beginner guide" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content={image} />
+{verification && <meta name="google-site-verification" content={verification} />}
+<script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c')} />
+

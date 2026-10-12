@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-12",
+  "engine": "Google",
+  "locale": "en",
+  "country": "US",
+  "personalization": "pws=0; UI footer said Results are not personalized",
+  "method": "Actual browser DOM inspection. Lists contain up to 10 observed ordinary result anchors; fewer than 10 were exposed in some snapshots. Missing positions are not invented. Embedded video cards are recorded separately. This is not a guaranteed ranking report for every user.",
+  "queries": [
+    {
+      "keyword": "steal anime eggs codes",
+      "priority": "P0",
+      "searchIntent": "Find working rewards and redemption instructions for the exact game",
+      "trend": "No measured Google Trends series; Suggest exact query returned no completions; variant query supplies codes demand proxy",
+      "KD": {
+        "value": 10,
+        "source": "inherited user baseline",
+        "remeasured": false
+      },
+      "searchVolume": null,
+      "serpTop10": [
+        {
+          "observedOrder": 1,
+          "title": "Steal an Anime Egg! Codes (October 2026)",
+          "url": "https://buxyapp.com/codes/steal-and-hatch-anime-eggs",
+          "scope": "BlinkWorks, different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 2,
+          "title": "Steal An Anime Egg (Steal An) Codes (October 2026)",
+          "url": "https://urgametips.com/steal-an-anime-egg-steal-an-codes/",
+          "scope": "Different creator; verify linked place before use",
+          "dr": null
+        },
+        {
+          "observedOrder": 3,
+          "title": "Steal Animal Egg codes October 2026",
+          "url": "https://www.pockettactics.com/steal-animal-egg-codes",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 4,
+          "title": "Break and Steal an Egg Codes & Rewards to Claim",
+          "url": "https://gameboost.com/blog/break-and-steal-an-egg-codes",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 5,
+          "title": "Codes - Steal An Egg Wiki - Fandom",
+          "url": "https://stealanegg.fandom.com/wiki/Codes",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 6,
+          "title": "Codes for Steal An Anime Egg Roblox 2026",
+          "url": "https://www.youtube.com/watch?v=idRqg58QUOk",
+          "scope": "Video claim; identity/redemption not verified",
+          "dr": null
+        },
+        {
+          "observedOrder": 7,
+          "title": "Jump To Steal An Egg Codes (October 2026)",
+          "url": "https://gamerant.com/jump-steal-egg-codes-roblox/",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 8,
+          "title": "Steal Animal Egg codes (October 2026)",
+          "url": "https://www.pcgamesn.com/roblox/steal-animal-egg-codes",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 9,
+          "title": "Steal an Egg Codes October 2026: Are There Any?",
+          "url": "https://www.eldorado.gg/blog/steal-an-egg/steal-an-egg-codes/",
+          "scope": "Different game",
+          "dr": null
+        }
+      ],
+      "dr": "Current DR unavailable; historical first-result DR 4 preserved separately",
+      "serpCompetitionScore": 2,
+      "scoreRationale": "A few anime-egg code guides plus videos; much of page one belongs to other games. This is not an empty SERP, and broad adjacent-domain competition is stronger.",
+      "contentGap": "Exact place-ID attribution, bounded code status, no fabricated strings, honest redemption limits",
+      "pageType": "Dated codes status article",
+      "target": "/codes",
+      "recommendation": "Publish P0; validate search demand and exact-game impressions in GSC before adding more pages"
+    },
+    {
+      "keyword": "steal anime eggs",
+      "priority": "P1",
+      "searchIntent": "Find the game, overview, and starting help",
+      "trend": "Core query is present in Google Suggest; no numeric trend or volume established",
+      "KD": null,
+      "searchVolume": null,
+      "serpTop10": [
+        {
+          "observedOrder": 1,
+          "title": "Steal an Anime Egg! | Play on Roblox",
+          "url": "https://www.roblox.com/games/76377501906469/Steal-an-Anime-Egg",
+          "scope": "Different game: BlinkWorks",
+          "dr": null
+        },
+        {
+          "observedOrder": 2,
+          "title": "Steal Anime Eggs",
+          "url": "https://www.roblox.com/games/96727061242653/Steal-Anime-Eggs",
+          "scope": "Exact target official listing",
+          "dr": null
+        },
+        {
+          "observedOrder": 3,
+          "title": "Steal n Hatch Anime Eggs! - Apps on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sup.rope.hero.crime.mafia.game&hl=en_US",
+          "scope": "Different platform",
+          "dr": null
+        },
+        {
+          "observedOrder": 4,
+          "title": "Steal An Anime Egg",
+          "url": "https://www.roblox.com/games/78933302895115/Steal-An-Anime-Egg",
+          "scope": "Different place",
+          "dr": null
+        },
+        {
+          "observedOrder": 5,
+          "title": "Steal An Anime Egg (Steal An) Codes (October 2026)",
+          "url": "https://urgametips.com/steal-an-anime-egg-steal-an-codes/",
+          "scope": "Identity overlap; not adopted as evidence",
+          "dr": null
+        },
+        {
+          "observedOrder": 6,
+          "title": "Steal and Hatch Anime Eggs Script - Auto Steal - 3D model",
+          "url": "https://sketchfab.com/3d-models/steal-and-hatch-anime-eggs-script-auto-steal-cfde7c0f867844249e2e004c0de389ae",
+          "scope": "Excluded topic; not opened",
+          "dr": null
+        },
+        {
+          "observedOrder": 7,
+          "title": "Steal and Hatch Anime Eggs Beginner's Guide",
+          "url": "https://www.aprasi.com/blogs/trending-topics/steal-and-hatch-anime-eggs-beginners-guide",
+          "scope": "Guide candidate; game identity unverified",
+          "dr": null
+        }
+      ],
+      "dr": null,
+      "serpCompetitionScore": 2,
+      "scoreRationale": "Official listings and other identities dominate; a few guide results are present.",
+      "contentGap": "Correct-game first answer and a compact starter route linked to official sources",
+      "pageType": "Wiki homepage",
+      "target": "/",
+      "recommendation": "Publish primary homepage; explicitly name And Collect Insane Animes and place ID"
+    },
+    {
+      "keyword": "steal and hatch anime eggs roblox codes",
+      "priority": "P1 auxiliary",
+      "searchIntent": "Find anime-egg rewards, with high game-identity ambiguity",
+      "trend": "Exact Suggest query returned no completions; numeric trend unavailable",
+      "KD": null,
+      "searchVolume": null,
+      "serpTop10": [
+        {
+          "observedOrder": 1,
+          "title": "Steal An Anime Egg (Steal An) Codes (October 2026)",
+          "url": "https://urgametips.com/steal-an-anime-egg-steal-an-codes/",
+          "scope": "Different creator; verify linked place before use",
+          "dr": null
+        },
+        {
+          "observedOrder": 2,
+          "title": "Break and Steal an Egg Codes & Rewards to Claim",
+          "url": "https://gameboost.com/blog/break-and-steal-an-egg-codes",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 3,
+          "title": "Steal Animal Egg codes October 2026",
+          "url": "https://www.pockettactics.com/steal-animal-egg-codes",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 4,
+          "title": "new* all working codes for steal an egg! roblox",
+          "url": "https://www.youtube.com/watch?v=PY0_hbLpyfw",
+          "scope": "Different-name video; no proof adopted",
+          "dr": null
+        },
+        {
+          "observedOrder": 5,
+          "title": "Jump To Steal An Egg Codes (October 2026)",
+          "url": "https://gamerant.com/jump-steal-egg-codes-roblox/",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 6,
+          "title": "Steal an Egg Codes October 2026: Are There Any?",
+          "url": "https://www.eldorado.gg/blog/steal-an-egg/steal-an-egg-codes/",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 7,
+          "title": "Jump To Steal An Egg codes (October 2026)",
+          "url": "https://www.dexerto.com/roblox/jump-to-steal-an-egg-codes-3410137/",
+          "scope": "Different game",
+          "dr": null
+        },
+        {
+          "observedOrder": 8,
+          "title": "Steal An Egg codes (October 2026)",
+          "url": "https://www.destructoid.com/steal-an-egg-codes/",
+          "scope": "Different game",
+          "dr": null
+        }
+      ],
+      "dr": null,
+      "serpCompetitionScore": 2,
+      "scoreRationale": "Mixed code pages and videos; the phrase also identifies BlinkWorks in discovered sources.",
+      "contentGap": "Explain identity mismatch instead of claiming these are verified aliases",
+      "pageType": "FAQ within /codes plus identity cross-link",
+      "target": "/codes",
+      "recommendation": "Cover the question cautiously; no separate landing page"
+    },
+    {
+      "keyword": "steal an anime egg",
+      "priority": "P1 variant",
+      "searchIntent": "Game discovery / wiki / codes, depending on exact experience",
+      "trend": "Suggest returns codes, bug, discord, Roblox, and excluded exploit-related phrases",
+      "KD": null,
+      "searchVolume": null,
+      "serpTop10": [],
+      "dr": null,
+      "serpCompetitionScore": null,
+      "scoreRationale": "Dedicated exact-query Google inspection pending; core and codes SERPs demonstrate ambiguity",
+      "contentGap": "Compare official place IDs and creators",
+      "pageType": "Game identity FAQ/article",
+      "target": "/which-game",
+      "recommendation": "Publish identity answer; do not pretend a spelling variant is a verified game alias"
+    }
+  ],
+  "videoBlock": {
+    "keyword": "steal anime eggs codes",
+    "cards": [
+      {
+        "url": "https://www.youtube.com/watch?v=rdQh7g3C9SA",
+        "scope": "Steal an Egg; different game"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=DPdRtywmOFU",
+        "scope": "Steal an Egg; different game"
+      }
+    ]
+  }
+}
+

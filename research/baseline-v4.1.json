@@ -1,0 +1,40 @@
+{
+  "date": "unknown (inherited on 2026-10-12)",
+  "provenance": "user prompt v4.1",
+  "immutable": true,
+  "keywords": [
+    {
+      "keyword": "steal anime eggs codes",
+      "priority": "P0",
+      "target": "/codes",
+      "kd": 10,
+      "firstResultDR": 4,
+      "firstResultApproxAgeMonths": 8,
+      "serpClaim": "No dedicated guide page on page one; 3 YouTube seats; approximately 7 effective competitor positions",
+      "status": "historical user-supplied, not remeasured"
+    },
+    {
+      "keyword": "steal anime eggs",
+      "priority": "P1",
+      "target": "/"
+    },
+    {
+      "keyword": "steal and hatch anime eggs roblox codes",
+      "priority": "P1 auxiliary",
+      "target": "/codes",
+      "identityRisk": "may refer to another universe"
+    },
+    {
+      "keyword": "steal an anime egg",
+      "priority": "P1 FAQ variant",
+      "target": "/which-game"
+    }
+  ],
+  "excluded": [
+    "steal an egg script",
+    "hack",
+    "exploit",
+    "cheat",
+    "injector"
+  ]
+}
