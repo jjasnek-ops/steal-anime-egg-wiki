@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-12T11:12:32.713Z",
+  "production": "https://stealanimeegg.wiki/",
+  "sourceCommit": "d7eda02eab42fb7998a3ec5da5d8dc239ffe7a87",
+  "desktopHome": {
+    "viewport": 1280,
+    "clientWidth": 1265,
+    "scrollWidth": 1265,
+    "heroImageLoaded": true,
+    "coverImageLoaded": true,
+    "heroRenderedWidth": 381.09375,
+    "coverRenderedWidth": 766,
+    "allArtworkLocal": true,
+    "sourceCreditVisible": true,
+    "screenshot": "reports/screenshots/images-home-production.jpg"
+  },
+  "localMobileScope": "Five changed pages checked at viewport 390x844; clientWidth and scrollWidth both 375 (15px scrollbar); see image-local-acceptance.json",
+  "localCodesLazyImage": {
+    "section": "/codes#codes-for-similarly-named-games",
+    "loadedWhenSectionVisited": true,
+    "src": "/_astro/steal-anime-eggs-icon.DLGT4zg2_1lpSsj.webp",
+    "renderedWidth": 72,
+    "renderedHeight": 72
+  },
+  "viewportOverrideResetBeforeProduction": true
+}

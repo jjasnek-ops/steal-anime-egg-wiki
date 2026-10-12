@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T08:53:44.415Z",
+  "checkedAt": "2026-10-12T11:09:27.316Z",
   "origin": "https://stealanimeegg.wiki",
   "method": "Actual public HTTP responses through curl; normal certificate verification; no browser automation",
   "totalChecks": 108,
@@ -12,8 +12,8 @@
       "finalUrl": "https://stealanimeegg.wiki/",
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
-      "bytes": 33753,
-      "seconds": 1.809442,
+      "bytes": 35137,
+      "seconds": 6.547767,
       "tlsVerified": true,
       "title": "Steal Anime Eggs Wiki — Codes & Beginner Guide",
       "canonical": "https://stealanimeegg.wiki/"
@@ -25,8 +25,8 @@
       "finalUrl": "https://stealanimeegg.wiki/codes",
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
-      "bytes": 46015,
-      "seconds": 1.243446,
+      "bytes": 46784,
+      "seconds": 1.010371,
       "tlsVerified": true,
       "title": "Steal Anime Eggs Codes: Current Verified Status",
       "canonical": "https://stealanimeegg.wiki/codes"
@@ -38,8 +38,8 @@
       "finalUrl": "https://stealanimeegg.wiki/guide",
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
-      "bytes": 46753,
-      "seconds": 1.039465,
+      "bytes": 50011,
+      "seconds": 1.002852,
       "tlsVerified": true,
       "title": "Steal Anime Eggs Beginner Guide",
       "canonical": "https://stealanimeegg.wiki/guide"
@@ -52,7 +52,7 @@
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
       "bytes": 36091,
-      "seconds": 1.077779,
+      "seconds": 2.800712,
       "tlsVerified": true,
       "title": "Steal Anime Eggs Guides",
       "canonical": "https://stealanimeegg.wiki/guides"
@@ -64,8 +64,8 @@
       "finalUrl": "https://stealanimeegg.wiki/which-game",
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
-      "bytes": 41733,
-      "seconds": 1.336245,
+      "bytes": 42582,
+      "seconds": 1.392664,
       "tlsVerified": true,
       "title": "Which Steal Anime Eggs Game Is This?",
       "canonical": "https://stealanimeegg.wiki/which-game"
@@ -78,7 +78,7 @@
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
       "bytes": 40952,
-      "seconds": 0.863395,
+      "seconds": 1.154631,
       "tlsVerified": true,
       "title": "Steal Anime Eggs Update Status",
       "canonical": "https://stealanimeegg.wiki/updates"
@@ -90,8 +90,8 @@
       "finalUrl": "https://stealanimeegg.wiki/sources",
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
-      "bytes": 38385,
-      "seconds": 0.917886,
+      "bytes": 41793,
+      "seconds": 0.997718,
       "tlsVerified": true,
       "title": "Sources & Verification | Steal Anime Egg Wiki",
       "canonical": "https://stealanimeegg.wiki/sources"
@@ -104,7 +104,7 @@
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
       "bytes": 34281,
-      "seconds": 0.878489,
+      "seconds": 1.669456,
       "tlsVerified": true,
       "title": "About Steal Anime Egg Wiki",
       "canonical": "https://stealanimeegg.wiki/about"
@@ -117,7 +117,7 @@
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
       "bytes": 33994,
-      "seconds": 1.389864,
+      "seconds": 1.025088,
       "tlsVerified": true,
       "title": "Privacy | Steal Anime Egg Wiki",
       "canonical": "https://stealanimeegg.wiki/privacy"
@@ -130,7 +130,7 @@
       "contentType": "text/plain; charset=utf-8",
       "redirects": 0,
       "bytes": 99,
-      "seconds": 0.961488,
+      "seconds": 0.712004,
       "tlsVerified": true
     },
     {
@@ -141,7 +141,7 @@
       "contentType": "application/xml",
       "redirects": 0,
       "bytes": 189,
-      "seconds": 2.116202,
+      "seconds": 0.90203,
       "tlsVerified": true
     },
     {
@@ -152,7 +152,7 @@
       "contentType": "application/xml",
       "redirects": 0,
       "bytes": 771,
-      "seconds": 0.730589,
+      "seconds": 0.764235,
       "tlsVerified": true,
       "locations": [
         "https://stealanimeegg.wiki/",
@@ -173,7 +173,7 @@
       "contentType": "image/png",
       "redirects": 0,
       "bytes": 101538,
-      "seconds": 1.041576,
+      "seconds": 1.009545,
       "tlsVerified": true
     },
     {
@@ -184,7 +184,7 @@
       "contentType": "application/javascript",
       "redirects": 0,
       "bytes": 45555,
-      "seconds": 1.204655,
+      "seconds": 0.845574,
       "tlsVerified": true
     },
     {
@@ -195,7 +195,7 @@
       "contentType": "text/html; charset=utf-8",
       "redirects": 0,
       "bytes": 26719,
-      "seconds": 1.183319,
+      "seconds": 1.380194,
       "tlsVerified": true
     },
     {
@@ -205,8 +205,8 @@
       "finalUrl": "https://stealanimeegg.wiki/",
       "contentType": "text/html; charset=utf-8",
       "redirects": 1,
-      "bytes": 33753,
-      "seconds": 1.685082,
+      "bytes": 35137,
+      "seconds": 1.027248,
       "tlsVerified": true
     },
     {
@@ -216,8 +216,8 @@
       "finalUrl": "https://stealanimeegg.wiki/codes",
       "contentType": "text/html; charset=utf-8",
       "redirects": 1,
-      "bytes": 46015,
-      "seconds": 1.041495,
+      "bytes": 46784,
+      "seconds": 1.282095,
       "tlsVerified": true
     },
     {
@@ -227,8 +227,8 @@
       "finalUrl": "https://stealanimeegg.wiki/codes",
       "contentType": "text/html; charset=utf-8",
       "redirects": 1,
-      "bytes": 46015,
-      "seconds": 1.51478,
+      "bytes": 46784,
+      "seconds": 1.656995,
       "tlsVerified": true
     }
   ]

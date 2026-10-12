@@ -1,5 +1,5 @@
 {
-  "recordedAt": "2026-10-12T08:53:34.278Z",
+  "recordedAt": "2026-10-12T11:13:29.656Z",
   "production": "https://stealanimeegg.wiki",
   "github": "https://github.com/jjasnek-ops/steal-anime-egg-wiki",
   "pagesProject": "steal-anime-egg-wiki",
@@ -7,12 +7,12 @@
   "deploymentMethod": "Cloudflare Pages dashboard Direct Upload",
   "environment": "Production",
   "branch": "main",
-  "filesUploaded": 52,
-  "contentSourceCommit": "390ec7de7d97ffd097567f6aab75ebffc5c1b340",
+  "filesUploaded": 66,
+  "contentSourceCommit": "d7eda02eab42fb7998a3ec5da5d8dc239ffe7a87",
   "sourceCommitNote": "Later delivery commits add acceptance records and documentation; deployed frontend content corresponds to this commit.",
   "artifact": "steal-anime-egg-pages.zip",
-  "artifactSha256": "6152b3fd6b4c0e4c4338f9f20a2c7bf7832cbdd22ddd2843986166c88882a444",
-  "artifactBytes": 519877,
+  "artifactSha256": "7d5bde3be53b3689d2d0a032c3b517ba9050781d960271c1bd225e3ece5e60b3",
+  "artifactBytes": 1559930,
   "google": {
     "gscProperty": "sc-domain:stealanimeegg.wiki",
     "verification": "Manual Cloudflare TXT; ownership verified",
@@ -39,5 +39,30 @@
     "publicValidationAD": true
   },
   "purchasesMade": false,
-  "gitAutoDeploymentConnected": false
+  "gitAutoDeploymentConnected": false,
+  "previousDeployment": {
+    "recordedAt": "2026-10-12T08:53:34.278Z",
+    "filesUploaded": 52,
+    "contentSourceCommit": "390ec7de7d97ffd097567f6aab75ebffc5c1b340",
+    "artifactSha256": "6152b3fd6b4c0e4c4338f9f20a2c7bf7832cbdd22ddd2843986166c88882a444",
+    "artifactBytes": 519877
+  },
+  "lastChange": "Verified Roblox listing artwork, game identity cards, and conceptual beginner route diagram",
+  "deploymentSuccessConfirmed": true,
+  "imageAcceptance": {
+    "selectedOfficialSourceImages": 3,
+    "optimizedImageUrlsChecked": 15,
+    "allHttp200AndHashMatched": true,
+    "technicalChecksPassed": 172,
+    "liveHttpChecksPassed": 108,
+    "browserRecord": "reports/image-browser-acceptance.json",
+    "screenshot": "reports/screenshots/images-home-production.jpg",
+    "provenance": "research/image-provenance-2026-10-12.json",
+    "ci": {
+      "status": "success",
+      "headSha": "d7eda02eab42fb7998a3ec5da5d8dc239ffe7a87",
+      "url": "https://github.com/jjasnek-ops/steal-anime-egg-wiki/actions/runs/38240225747"
+    }
+  },
+  "googleStateSource": "Preserved launch acceptance records; Google account configuration was not changed or rechecked for this image-only update."
 }

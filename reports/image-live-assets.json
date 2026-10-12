@@ -1,0 +1,176 @@
+{
+  "checkedAt": "2026-10-12T11:09:17.143Z",
+  "origin": "https://stealanimeegg.wiki",
+  "sourceCommit": "d7eda02eab42fb7998a3ec5da5d8dc239ffe7a87",
+  "scope": "All new optimized image URLs referenced by the four updated pages, including responsive alternatives; public HTTP with normal trusted TLS",
+  "totalChecks": 15,
+  "passed": 15,
+  "failures": [],
+  "checks": [
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-icon.DLGT4zg2_1yRtsV.webp",
+      "httpStatus": 200,
+      "bytes": 31758,
+      "width": 400,
+      "height": 400,
+      "format": "webp",
+      "sha256": "bfec8b4a62df639f70d0046a19b848793bcfc1005502f52b0c6817a336ac040b",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-cover.J1RCmioH_ZHjCt7.avif",
+      "httpStatus": 200,
+      "bytes": 32464,
+      "width": 384,
+      "height": 216,
+      "format": "heif",
+      "sha256": "e8f6c43138e0b1690234660d833814f004953b2e5fae2795fecb1327da27219e",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-cover.J1RCmioH_17wmcD.avif",
+      "httpStatus": 200,
+      "bytes": 86212,
+      "width": 767,
+      "height": 432,
+      "format": "heif",
+      "sha256": "04c6b9826c9f5992696ea29dd57e40f93b6e860c2166e2f471fa89ff9c6eef1c",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-cover.J1RCmioH_GmXpm.webp",
+      "httpStatus": 200,
+      "bytes": 23400,
+      "width": 384,
+      "height": 216,
+      "format": "webp",
+      "sha256": "153b4325dc1d0f0ec173ae30cc7e93be1b5a281a41585aafb19245a91c65a6e1",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-cover.J1RCmioH_2wdX67.webp",
+      "httpStatus": 200,
+      "bytes": 61304,
+      "width": 767,
+      "height": 432,
+      "format": "webp",
+      "sha256": "bbd978f9c83b171e409bb2c3782f50d6b624abc58d54abecf2b77ab2cd8031dc",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-cover.J1RCmioH_ZtQEV0.jpg",
+      "httpStatus": 200,
+      "bytes": 78512,
+      "width": 767,
+      "height": 432,
+      "format": "jpeg",
+      "sha256": "a182f956fdb631ff22a6cf57feb2609a6f65a6fdffc37743e89e733cabfcd674",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-cover.J1RCmioH_Z2jHEBK.jpg",
+      "httpStatus": 200,
+      "bytes": 26313,
+      "width": 384,
+      "height": 216,
+      "format": "jpeg",
+      "sha256": "fcd75b1f41fe49c317804299a468e6ba2281cc1f17c749f4e4c3075b4a066a09",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-guide.CS4bNPyq_u6acE.avif",
+      "httpStatus": 200,
+      "bytes": 28423,
+      "width": 384,
+      "height": 216,
+      "format": "heif",
+      "sha256": "5b34624c5f65b33e59d0597f8a34aed590a48ce0a89e13eb8c369fd1eb702eee",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-guide.CS4bNPyq_2jW9Sp.avif",
+      "httpStatus": 200,
+      "bytes": 69671,
+      "width": 767,
+      "height": 432,
+      "format": "heif",
+      "sha256": "045ff0edd7ce3b15e5832ceb37ae5f58549638c507aa1a0cc67847e0ae29921e",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-guide.CS4bNPyq_1SML68.webp",
+      "httpStatus": 200,
+      "bytes": 21914,
+      "width": 384,
+      "height": 216,
+      "format": "webp",
+      "sha256": "e3706783c2b1bcb4dab5be9640d5b8c0109cae73daf416c588958a8939a74f6c",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-guide.CS4bNPyq_Z1lxn23.webp",
+      "httpStatus": 200,
+      "bytes": 53982,
+      "width": 767,
+      "height": 432,
+      "format": "webp",
+      "sha256": "19b9c286b64680f8b0b9390878f05f51b9c71d88645ac5df4a8ab5db539ed43f",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-guide.CS4bNPyq_Hy7JL.jpg",
+      "httpStatus": 200,
+      "bytes": 72508,
+      "width": 767,
+      "height": 432,
+      "format": "jpeg",
+      "sha256": "2e33fa380234a9faacac4ecd3084883577feeac354e7de1b0af1cb10a273ef93",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-guide.CS4bNPyq_Z17hQUY.jpg",
+      "httpStatus": 200,
+      "bytes": 25646,
+      "width": 384,
+      "height": 216,
+      "format": "jpeg",
+      "sha256": "f696f4764a9dd4c7d88e4e6b4706fd6c0276fd8bd0241b5debfd67ab2a6528e4",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-icon.DLGT4zg2_1lpSsj.webp",
+      "httpStatus": 200,
+      "bytes": 3924,
+      "width": 96,
+      "height": 96,
+      "format": "webp",
+      "sha256": "c18075ae88c3a42961ed237fde06fc692b15a6ee0952ee3b6aed34666723230d",
+      "matchesBuiltAsset": true,
+      "ok": true
+    },
+    {
+      "url": "https://stealanimeegg.wiki/_astro/steal-anime-eggs-icon.DLGT4zg2_1RXXnD.webp",
+      "httpStatus": 200,
+      "bytes": 11060,
+      "width": 192,
+      "height": 192,
+      "format": "webp",
+      "sha256": "33b3b6aa129477aa80894cfbb902281838fc47773f2c26098813f876312bea03",
+      "matchesBuiltAsset": true,
+      "ok": true
+    }
+  ]
+}

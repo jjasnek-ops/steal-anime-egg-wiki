@@ -34,4 +34,14 @@
 
 ## 部署验收
 
-本地成品已打包为 66 文件的 Cloudflare Pages Direct Upload 包。线上上传、固定域名访问与图片 HTTP 验收结果将在部署后追加；此段不提前声称上线完成。
+Cloudflare Pages 的 Production / main 环境确认 **66/66 文件全部上传**，并返回 **Success!**。固定域名 [stealanimeegg.wiki](https://stealanimeegg.wiki) 已显示新图，正式首页图标和宣传图均成功加载，浏览器错误/警告日志为空。
+
+- 前端对应源码：`d7eda02eab42fb7998a3ec5da5d8dc239ffe7a87`。
+- [GitHub 前端校验](https://github.com/jjasnek-ops/steal-anime-egg-wiki/actions/runs/38240225747)：success。
+- 最新全站公开 HTTP 验收：18 个请求、108 项检查通过，正常 HTTPS 证书验证。
+- 新图片 HTTP 验收：全部 15 个响应式资源均为 200，且 SHA-256 与本地构建文件一致，图像尺寸解析正常。
+- 部署 ZIP：1559930 bytes；SHA-256 `7d5bde3be53b3689d2d0a032c3b517ba9050781d960271c1bd225e3ece5e60b3`。
+- [正式首页截图](screenshots/images-home-production.jpg)。
+- [图片 HTTP 验收记录](image-live-assets.json) 与 [浏览器验收记录](image-browser-acceptance.json)。
+
+页面数量、规范域名、兑换码状态、分析同意流程与 Google 配置均未因配图更新而调整。既有 GSC 状态沿用首版验收记录，本次不宣称重新验证了收录或 Sitemap 报表。
